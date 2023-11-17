@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="start"
+
+        android:orientation="vertical"
+        tools:ignore="RelativeOverlap">
+
+
+
+        <CheckBox
+            android:id="@+id/biryani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biryani"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/sambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sambar sadam"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lemon rice"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/curd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="curd rice"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="77dp"
+        android:background="@color/teal_200"
+        android:text="place order"
+        android:textAllCaps="true"
+        android:textColor="#150202"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Bill"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="64dp"
+        android:textSize="40sp" />
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="hello_foodies">Hello Foodies!!!!</string>
+    <string name="click_to_order">Click To Order</string>
+    <string name="biryani">Biryani</string>
+    <string name="sambar_sadham">Sambar Sadham</string>
+    <string name="lemon_sadam">Lemon Sadam</string>
+    <string name="curd_rice">Curd Rice</string>
+    <string name="chicken_biryani" />
+    <string name="mutton_biryani" />
+    <string name="chickenbiryani">chicken_biryani</string>
+</resources>
